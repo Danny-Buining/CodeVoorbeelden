@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/main.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+    <title>Color Game</title>
+</head>
+<body id="body">
+
+<div class="colorGame">
+    <h1 id="cgNameH1">Color <span id="cgNameSpan">Game</span></h1>
+
+    <div class="flexContainer">
+
+    <div class="colorGameBox">
+
+        <div id="colorGameNumber1" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber2" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber3" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber4" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber5" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber6" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber7" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber8" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+        <div id="colorGameNumber9" class="colorGameBoxLayout" onclick="cgKleurVergelijking(this)"></div>
+
+        <div id="colorGameBasisKleur">Basis Kleur</div>
+        <div class="colorGameButton" onclick="colorGameStart()">Start</div>
+        <div class="colorGameButton" onclick="colorGameStop()">Stop</div>
+    </div>
+
+    <div id="colorGameHitMissBox"><span id="HitMissSpan-Hit">Hit</span> or <span id="HitMissSpan-Miss">Miss</span>
+        <div id="colorGameHitMiss"></div>
+    </div>
+
+    <div id="HitMissEndScoreBox">Score
+        <div id="HitMissEndScore">
+            Hit: <span id="endScoreHit"> 0 </span> <br>
+            Miss: <span id="endScoreMiss"> 0 </span> <br>
+            To Late: <span id="endScoreToLate"> 0 </span>
+        </div>
+    </div>
+    
+    </div>
+</div>
+
+<button onclick="itvlDisco()">Disco</button>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+:root {
+    --mainFont:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*deepskyblue*/
+}
+
+body {
+    margin: 0px;
+    background-color:grey;
+}
+
+
+h1 {
+    font-family: var(--mainFont);
+    padding-bottom: 10px;
+    margin: 0px;
+    color: limegreen;
+
+}
+h1 span {
+    color:springgreen;
+    
+}
+
+.colorGame {
+    margin-left:  25px;
+}
+
+.colorGameBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 156px;
+    width: 156px;
+    font-family:var(--mainFont);
+}
+
+.colorGameBoxLayout {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#colorGameBasisKleur {
+    background-color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
+    width: 156px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor:default;
+}
+
+.colorGameButton {
+    background-color:black;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    width: 76px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+#colorGameHitMissBox {
+    background-color: rgb(192, 192, 192);
+    width: 100px;
+    height: 206px;
+    text-align: center;
+    margin-left: 2px;
+    border: 1px solid black;
+}
+
+.flexContainer {
+    display: flex;
+    color: black;
+    font-family: var(--mainFont);
+}
+
+#colorGameHitMiss {
+    text-align: center;
+    font-family: var(--mainFont);
+    font-size: 80%;
+}
+
+#HitMissSpan-Hit {
+    color: green;
+}
+
+#HitMissSpan-Miss {
+    color: red;
+}
+
+#HitMissEndScore {
+    font-size: 80%;
+    color: black;
+}
+
+#HitMissEndScoreBox {
+    background-color: rgb(192, 192, 192);
+    width: 100px;
+    height: 206px;
+    text-align: center;
+    margin-left: 2px;
+    border: 1px solid black;
+    color: aqua;
+}
+
+#endScoreHit {
+    color: green;
+}
+
+#endScoreMiss {
+    color: red;
+}
+
+#endScoreToLate {
+    color:deepskyblue;
+}
